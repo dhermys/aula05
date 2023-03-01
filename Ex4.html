@@ -8,13 +8,20 @@
     <script src="./js/changePage.js"></script>
     <script src="./js/Ex4.js" async></script>
   </head>
-  <body>
-    <div>
-        <input type="text" id="sortedName" readonly>
-        <input type="text" id="velocity">
-        <input type="text" id="time">
-        <input type="button" class="btn btn-primary" value="sorteia" onclick="makeRaffle()">
-        <input type="button" value="Ex2" class="btn btn-warning" onclick="redirectIndex()">
+  <body class="p-3">
+    <div class="d-flex flex-column justify-content-start p-3 mb-2 bg-success">
+        <div class="d-block m-1">
+          <p class="text-white m-1">Sorteado:</p>
+          <input type="text" id="sortedName" class="w-100" readonly>
+        </div>
+        <input type="button" class="btn btn-primary m-2" value="sorteia" onclick="makeRaffle()">
+        <div class="d-flex justify-content-center">
+          <p class="text-white m-1">Velocidade:</p>
+          <input type="text" id="velocity">
+          <p class="text-white m-1">Tempo:</p>
+          <input type="text" id="time">
+        </div>
+        <input type="button" value="voltar para o Index" class="btn btn-warning m-2" onclick="redirectIndex()">
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>

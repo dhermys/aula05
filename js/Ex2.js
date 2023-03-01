@@ -3,6 +3,7 @@ var time;
 function getTime(){
     const date = new Date().toLocaleTimeString()
     textBox.value = date;
+    textBox.style.fontWeight = "900";
 }
 
 function startTimer(){
