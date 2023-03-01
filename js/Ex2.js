@@ -7,7 +7,7 @@ function getTime(){
 }
 
 function startTimer(){
-    time = setInterval(getTime, 1000);
+    time = setInterval(getTime, 2000);
 }
 
 function stopTimer(){
