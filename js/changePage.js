@@ -1,3 +1,7 @@
+function redirectEx1Ex3(){
+    window.location.href = "ex1ex3.html";
+}
+
 function redirectEx2(){
     window.location.href = "Ex2.html";
 }
